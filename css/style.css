@@ -19,10 +19,7 @@ a {
     text-decoration: none;
     color: inherit;
 }
-.header-container{
-    
-  
-}
+
 .gradient {
     position: absolute;
     background: rgba(0, 0, 0, 0.4);
@@ -54,6 +51,9 @@ a {
     font-size: 2.6rem;
     color: var(--red);
     padding-right: 5rem;
+}
+.nav a:hover {
+    color: var(--font);
 }
 .nav a {
     text-decoration: none;
@@ -133,6 +133,9 @@ a {
     text-align: center;
     
 }
+.btn1:hover {
+    background: rgb(252, 227, 228);
+}
 .btn2 {
     width: 30rem;
     height: 6rem;
@@ -141,10 +144,10 @@ a {
     border-radius: .5rem;
     outline: none;
     border: none;
-    text-align: center;
-    
-    
-    
+    text-align: center;   
+}
+.btn2:hover {
+    background: rgba(58, 53, 54, 0.3);
 }
 .btn1 a, .btn2 a {
     font-size: 2rem;
