@@ -20,6 +20,7 @@ a {
     color: inherit;
 }
 .header-container{
+    
   
 }
 .gradient {
@@ -33,12 +34,14 @@ a {
     
 }
 .menu {
-    position: fixed;
+    position: absolute;
     display: flex;
     width: 100%;
     justify-content: space-between;
     align-items: center;
     z-index: 1;
+    
+    padding-bottom: 2rem;
     
 }
 .menu-left {
@@ -150,4 +153,32 @@ a {
 .fas {
     font-size: 2.3rem;
     padding-right: 2rem;
+}
+.fa-caret-down {
+    
+    font-size: 1.7rem;
+    padding-top: 0rem;
+    padding-left: 1rem;
+}
+.container-down {
+    display: flex;
+    align-items: top;
+    
+}
+.fa-bell {
+    font-size: 2rem;
+    padding-right: 1rem;
+}
+.fa-search {
+    font-size: 2rem;
+    padding-right: 0.4rem;
+}
+.account-dropdown-button {
+    margin-right: -6rem;
+}
+.carrosel-filmes {
+    background: var(--black);
+}
+.carrosel {
+    display: flex;
 }
